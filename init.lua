@@ -13,8 +13,8 @@ advtrains.register_wagon("under_s7dm", {
 	seats = {
 		{
 			name=S("Driver stand"),
-			attach_offset={x=0, y=8, z=13},
-			view_offset={x=0, y=0, z=0},
+			attach_offset={x=0, y=8, z=19},
+			view_offset={x=0, y=-3, z=16},
 			driving_ctrl_access=true,
 			group="dstand",
 		},
