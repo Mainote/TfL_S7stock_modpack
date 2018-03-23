@@ -143,4 +143,3 @@ advtrains.register_wagon("under_s7ndm", {
 	collisionbox = {-1.0,-0.5,-1.0, 1.0,2.5,1.0},
 	drops={"default:steelblock 4"},
 }, S("underground_s7ndm"), "advtrains_london_s7ndm_inv.png")
-
