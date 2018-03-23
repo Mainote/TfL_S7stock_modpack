@@ -14,7 +14,7 @@ advtrains.register_wagon("under_s7dm", {
 		{
 			name=S("Driver stand"),
 			attach_offset={x=0, y=8, z=19},
-			view_offset={x=0, y=-3, z=16},
+			view_offset={x=0, y=-1, z=18},
 			driving_ctrl_access=true,
 			group="dstand",
 		},
@@ -72,7 +72,7 @@ advtrains.register_wagon("under_s7dm", {
 	visual_size = {x=1, y=1},
 	wagon_span=2.5,
 	is_locomotive=true,
-	collisionbox = {-1.0,-0.5,-1.0, 1.0,2.5,1.0},
+	collisionbox = {-1.0,-0.5,-2.0, 1.0,2.5,2.0},
 	drops={"default:steelblock 4"},
 }, S("underground_s7dm"), "advtrains_london_s7dm_inv.png")
 
